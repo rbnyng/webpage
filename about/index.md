@@ -12,7 +12,7 @@ comments: false
 
 Test embed pdf
 
-<object data="{{ site.url }}/assets/pdfs/test.pdf" width="100%" height="175" type='application/pdf'/>
+<object data="{{ site.url }}/assets/pdfs/test.pdf" width="100%" height="150" type='application/pdf'/>
 
 <!---
 {% capture images %}
