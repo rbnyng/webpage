@@ -9,8 +9,7 @@ comments: false
 
 ## Hello!
 
-
-<embed src="/assets/pdfs/test.pdf" width="100%" type="application/pdf">
+<object data="{{ site.url }}/assets/pdfs/test.pdf" width="100%" height="500" type='application/pdf'/>
 
 <!---
 {% capture images %}
