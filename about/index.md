@@ -14,6 +14,14 @@ Test embed pdf
 
 <object data="{{ site.url }}/assets/pdfs/test.pdf" width="100%" height="145" type='application/pdf'/>
 
+
+<object data="{{ site.url }}/assets/pdfs/test.pdf" type="application/pdf" width="100%" height="140">
+    <embed src="{{ site.url }}/assets/pdfs/test.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://raw.githubusercontent.com/robin-a-young/webpage/main/assets/pdfs/test.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+
+
 <!---
 {% capture images %}
     https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
